@@ -35,7 +35,7 @@ Data for missing Revenue and Budget are marked as 0.0 rather than NaN, and did n
 ## Conclusions
 The Average Runtime of all movies is 109.2 Minutes.
 
-The Average Runtime of the top 100 profitable movies is 129.83
+The Average Runtime of the top 100 profitable movies is 129.83 Minutes.
 
 The Top 3 Most Profitable Movies were: Avatar, Star Wars: The Force Awakens, and Titanic.
 
@@ -47,7 +47,7 @@ The Most Cast 5 Actors are: Robert De Niro, Bruce Willis, Samuel L Jackson, Nico
 
 1966 is the year of least profits for entire dataset. Profits steadily increasing over time.
 
-#### Keep in mind: Correlation != causation
+#### Keep in mind: Correlation != causation.
 
 
 ## Limitations
@@ -55,7 +55,7 @@ We have some missing values in the dataset affecting our results.
 
 We don't know the currency used in the dataset.
 
-Data for Budget and Revnues have a lot of 0. Had to deal with them.
+Data for Budget and Revenues have a lot of 0. Had to deal with them.
 
 Duplicates in the data skew results.
 
