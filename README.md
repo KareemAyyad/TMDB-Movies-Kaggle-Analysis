@@ -14,11 +14,11 @@ Dataset: IMDB Kaggle Dataset was selected for analysis. This dataset should help
 
 4) What is the relationship between a movie's Runtime and Vote Average? Do longer movies receive lower ratings?
 
-## However, after realizing that data on Budget and Revenues is missing, a new set of questions was formulated. 
+#### However, after realizing that data on Budget and Revenues is missing, a new set of questions was formulated. 
 
 Data for missing Revenue and Budget are marked as 0.0 rather than NaN, and did not show up in early data inspection when running df.isnan() or df.info(). More than 50% of the data was 0.0 when running df.describe() which drew attention to the missing values. We can replace the missing data with the mean, but that wouldn't lead to an accurate analysis. Instead, a new set of questions is posed.
 
-### New Set of Questions:
+## New Set of Questions:
 
 1) What is the relationship between a movie's Runtime and Vote Average? Do longer movies receive lower ratings?
 
