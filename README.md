@@ -1,10 +1,34 @@
-# TMDB Dataset Analysis
+# TMDB Movies Dataset Analysis
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#key-questions">Key Questions</a>
+    </li>
+    <li>
+    <a href="#new-set-of-questions">Updated Key Questions</a>
+  </li>
+ <li>
+ <a href="#summary-of-findings">Summary of Findings</a>
+ </li>
+ <li>
+ <a href="#limitations">Limitations</a>
+ </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
 
-## Dataset
-Dataset: IMDB Kaggle Dataset was selected for analysis. This dataset should help answer some interesting questions about movies. For each movie(row) in the dataset we have 21 features (columns) to describe it; such as Budget, Revenue, User Ratings, and other features.
+## About The Project
+Dataset: TMDB Kaggle Dataset was selected for analysis. This dataset should help answer some interesting questions about movies. For each movie(row) in the dataset we have 21 features (columns) to describe it; such as Budget, Revenue, User Ratings, and other features.
 
-## Initially the questions be asked were the following:
+## Key Questions
 
 1) What is the relationship between Movie Budgets and the amount of Revenue they generate?
 
@@ -32,7 +56,7 @@ Data for missing Revenue and Budget are marked as 0.0 rather than NaN, and did n
 
 7) Who were the most frequently cast actors across all movies?
 
-## Conclusions
+## Summary of Findings
 The Average Runtime of all movies is 109.2 Minutes.
 
 The Average Runtime of the top 100 profitable movies is 129.83 Minutes.
@@ -47,7 +71,7 @@ The Most Cast 5 Actors are: Robert De Niro, Bruce Willis, Samuel L Jackson, Nico
 
 1966 is the year of least profits for entire dataset. Profits steadily increasing over time.
 
-#### Keep in mind: Correlation != causation.
+**Keep in mind: Correlation != causation.**
 
 
 ## Limitations
@@ -60,3 +84,13 @@ Data for Budget and Revenues have a lot of 0. Had to deal with them.
 Duplicates in the data skew results.
 
 Incorrect datatypes had to be fixed
+
+<!-- CONTACT -->
+## Contact
+
+Kareem Ayyad- [@kareem_ayyad](https://twitter.com/kareem_ayyad) - kareem@ayyad.net
+
+Project Link: [https://github.com/KareemAyyad/TMDB-Analysis-Project-DAND](https://github.com/KareemAyyad/TMDB-Analysis-Project-DAND)
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/kareemayyad/
