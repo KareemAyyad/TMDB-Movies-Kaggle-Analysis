@@ -26,7 +26,7 @@
 
 
 ## About The Project
-Dataset: TMDB Kaggle Dataset was selected for analysis. This dataset should help answer some interesting questions about movies. For each movie(row) in the dataset we have 21 features (columns) to describe it; such as Budget, Revenue, User Ratings, and other features.
+Dataset: TMDB Kaggle Dataset was selected for analysis. This dataset should help answer some interesting questions about movies. For each movie (row) in the dataset we have 21 features (columns) to describe it; such as Budget, Revenue, User Ratings, and other features.
 
 ## Key Questions
 
